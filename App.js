@@ -4,6 +4,8 @@ import { StyleSheet, Text, View } from 'react-native';
 import { useState, useEffect } from "react";
 import { getDocs, collection, deleteDoc, doc } from "firebase/firestore";
 import { auth, db } from "./src/firebase-config";
+import { NativeRouter, Route, Link } from "react-router-native";
+import Login from '/src/view/login';
 
 
 export default function App() {
@@ -16,10 +18,15 @@ export default function App() {
   }, []);
 
   return (
+    <NativeRouter>
     <View style={styles.container}>
       <Text>Open up App.js to start working on your app!</Text>
       <StatusBar style="auto" />
+      
+         <Route path="/login" component={Login} />
+     
     </View>
+     </NativeRouter>
   );
 }
 
