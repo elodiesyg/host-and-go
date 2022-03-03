@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "345259792323",
+    "project_id": "host-and-go",
+    "storage_bucket": "host-and-go.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:345259792323:android:98055bb840d8d96c52cf76",
+        "android_client_info": {
+          "package_name": "com.hostandgo.app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "345259792323-f608kcm0hjgr24c2ig88flcikcsfr960.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBim3CPYQ8P6ilXdl5pKUOe9IlonBYHh_4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "345259792323-f608kcm0hjgr24c2ig88flcikcsfr960.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

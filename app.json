@@ -1,0 +1,11 @@
+{
+  "expo": {
+    "name": "host-and-go",
+    "slug": "host-and-go",
+    "version": "1.0.0",
+    "assetBundlePatterns": [
+      "**/*"
+    ]
+  },
+  "name": "host-and-go"
+}
